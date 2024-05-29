@@ -23,6 +23,6 @@ Afterwards, create "Trained_100" folder and run the example below.
 
 ## Example of command to run the code:
 ```
-CUDA_VISIBLE_DEVICES=0 python3 main.py --filenet ./net/net_1_4a32c3z2a32c3z2a_100_100_no_ceil.txt --fileresult res_100x100_noceil_wghbit_C0b32_C1b32_F1b32_F2b32 --batch_size 40 --lr 1e-3 --lr_decay_epoch 20 --lr_decay_value 0.5 --threshold 0.4 --att_window 100 100 0 0 --sample_length 10 --sample_time 1 --wghbit_c0 32 --wghbit_c1 32 --wghbit_f0 32 --wghbit_f1 32
+CUDA_VISIBLE_DEVICES=0 python3 main.py --filenet ./net/net_attwindow_100x100.txt --fileresult res_attwindow_100x100 --batch_size 40 --lr 1e-3 --lr_decay_epoch 20 --lr_decay_value 0.5 --threshold 0.4 --att_window 100 100 0 0 --sample_length 10 --sample_time 1 --wghbit_c0 32 --wghbit_c1 32 --wghbit_f0 32 --wghbit_f1 32 --quant 1 --tstep 20
 ```
 
