@@ -17,6 +17,8 @@ pip install numpy torch torchvision
 Prepare the original dataset (n-cars_test & n-cars_train) as shown like this figure. 
 <p align="left"><img width="25%" src="docs/snn4agents_folders.png"/></p>
 
+The original N-CARS dataset can be downloaded from this [link](https://www.prophesee.ai/2018/03/13/dataset-n-cars/).
+
 Then, generate the modified dataset (N_cars) using matlab scripts and will get N_cars folder.   
 
 Afterwards, create "Trained_100" folder and run the example below.
