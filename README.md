@@ -15,7 +15,7 @@ pip install numpy torch torchvision
 
 ## Preparation: 
 Prepare the original dataset (n-cars_test & n-cars_train) as shown like this figure. 
-<p align="left"><img width="25%" src="docs/ncars_folders.png"/></p>
+<p align="left"><img width="25%" src="docs/snn4agents_folders.png"/></p>
 
 Then, generate the modified dataset (N_cars) using matlab scripts and will get N_cars folder.   
 
