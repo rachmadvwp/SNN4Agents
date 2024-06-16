@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=0 python3 main.py --filenet ./net/net_attwindow_100x100.txt
 ```
 
 ## Citation
-If you use SNN4Agents in your research, please cite the following [article](https://www.frontiersin.org/article/10.3389/frobt.2024.1401677):
+If you use SNN4Agents in your research or find it useful, kindly cite the following [article](https://www.frontiersin.org/article/10.3389/frobt.2024.1401677):
 ```
 @ARTICLE{10.3389/frobt.2024.1401677,
 	AUTHOR={Putra, Rachmad Vidya Wicaksana and Marchisio, Alberto and Shafique, Muhammad},   
