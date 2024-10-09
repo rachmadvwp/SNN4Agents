@@ -1,4 +1,4 @@
-# SNN4Agents: A Framework for Developing Energy-Efficient Embodied Spiking Neural Networks for Autonomous Agents
+# SNN4Agents: A Framework for Developing Energy-Efficient Embodied Spiking Neural Networks for Autonomous Agents [will be updated soon]
 
 SNN4Agents is a framework for enabling efficient embodied SNN deployments for autonomous agents. It consists of a set of optimization techniques for designing energy-efficient embodied SNNs targeting autonomous agent applications. Our SNN4Agents employs weight quantization, timestep reduction, and attention window reduction to jointly improve the energy efficiency, reduce the memory footprint, optimize the processing latency, while maintaining high accuracy. In the evaluation, we investigate use cases of event-based car recognition (i.e., NCARS dataset).
 
@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=0 python3 main.py --filenet ./net/net_attwindow_100x100.txt
 ```
 
 ## Citation
-If you use SNN4Agents in your research, please cite the following [article](https://www.frontiersin.org/article/10.3389/frobt.2024.1401677):
+If you use SNN4Agents in your research or find it useful, kindly cite the following [article](https://www.frontiersin.org/article/10.3389/frobt.2024.1401677):
 ```
 @ARTICLE{10.3389/frobt.2024.1401677,
 	AUTHOR={Putra, Rachmad Vidya Wicaksana and Marchisio, Alberto and Shafique, Muhammad},   
