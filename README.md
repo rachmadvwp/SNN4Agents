@@ -15,7 +15,7 @@ pip install numpy torch torchvision
 
 ## Preparation: 
 Prepare the working folders as shown like this figure. 
-<p align="left"><img width="25%" src="docs/snn4agents_folders.png"/></p>
+<p align="left"><img width="40%" src="docs/snn4agents_folders.png"/></p>
 
 To do this, first prepare the original N-CARS dataset (n-cars_test & n-cars_train), which can be downloaded from this [link](https://www.prophesee.ai/2018/03/13/dataset-n-cars/).
 
