@@ -42,3 +42,5 @@ If you use SNN4Agents in your research or find it useful, kindly cite the follow
 	ISSN={2296-9144},
 }
 ```
+
+This work is developed and enhanced from the baseline work: [CarSNN](https://doi.org/10.1109/IJCNN52387.2021.9533738).
